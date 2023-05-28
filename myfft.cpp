@@ -23,16 +23,6 @@ int bitreverse(int x, int bits){
     return y;
 }
 
-void reverse(){
-    for(int i=0; i<N; i++){
-        int j = bitreverse(i,m);
-        x_1[j] = x[i];
-    }
-    return ;
-}
-
-
-
 const int THREAD_NUM = 2;// 双线程
 typedef struct{
     int r;

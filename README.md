@@ -5,7 +5,7 @@
 ```python
 import os
 os.system("g++ ./myfft.cpp -O3 -o ./exe/myfft -lpthread")
-# os.system("./myfft 4 ./array/array_16_0.txt ./out.txt")
+# os.system("./exe/myfft 3 ./array/array_8_0.txt ./out.txt")
 ```
 
 

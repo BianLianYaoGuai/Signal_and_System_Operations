@@ -20,7 +20,7 @@ os.system('g++ mixed_radix_FFT.cpp -O3 -o exe/mixed_radix_FFT')
 # 第一个参数指明数组的长度是8；
 # 第二个参数指明原数组的存储文件是./array/array_8_0.txt；
 # 第三个参数指明结果数组的存储文件是./out.txt
-# os.system('./exe/mixed_radix_FFT 7 ./array/array_8_0.txt ./out.txt')
+# os.system('./exe/mixed_radix_FFT 8 ./array/array_8_0.txt ./out.txt')
 ```
 
 
